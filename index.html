@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SecureAES</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <img src="C:\Users\student\Desktop\secureAES\Images\logo.png" alt="logo error" style="width:100px;">
+        <!-- <h1>LockBoxx</h3> -->
+        <h5>Simple, fast, secure & offline</h5>
+    </header>
+    <div class="aes-dropwindow">
+        <h4>Drag & Drop Files here</h4>
+    </div>
+    <div class="pass-section">
+        <div class="checker-box">
+            <div class="inner-attrib">
+                <input type="password" name="pass-inp-area" id="passInputArea">
+                <button type="button" class="pass-field-button" id="Seepassbutton"><img
+                        src="./Images/visibility_FILL0_wght400_GRAD0_opsz48.png" alt="PassVisibility" id="visImgae">
+                </button>
+                <button type="button" class="pass-field-button" id="generateButton">Generate</button>
+                <p>Choose a Strong Password</p>
+            </div>
+        </div>
+        <div class="final-enc-btn">
+            <button type="button" id="encryptButton">Encrypt</button>
+            <button type="button" id="decryptButton">Decrypt</button>
+            <button type="button" id="resetButton">Reset</button>
+        </div>
+    </div>
+    <button class="dark_mode" ondblclick="change()" style="width:4rem;height: 3rem;position: fixed;left: 1rem;bottom: 1rem;background-color: aliceblue;
+    "><img src="./Images/dark_mode.png" </img>
+    </button>
+    <script src="./index.js"></script>
+</body>
+
+</html>
