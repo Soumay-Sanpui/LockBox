@@ -8,7 +8,7 @@ const menuTemplate = [
             {
                 label: "Setting",
                 click() {
-                    win.loadFile("hell.html");
+                    win.loadFile("loggen_fire.html");
                 }
             },
             { role: 'quit' }
