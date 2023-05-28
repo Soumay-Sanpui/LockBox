@@ -188,10 +188,6 @@ decryptButton.addEventListener("click", () => {
     dropZone.classList.remove("greenBB");
 });
 
-
-
-
-
 resetButton.addEventListener("click", () => {
     dropZone.classList.remove("greenBB");
     dropZone.classList.remove("hover-Dragover");
